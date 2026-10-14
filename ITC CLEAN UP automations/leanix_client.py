@@ -17,8 +17,8 @@ except ImportError:
     pass
 
 API_TOKEN = os.getenv("LEANIX_API_TOKEN", "")
-HOST      = os.getenv("LEANIX_WORKSPACE_HOST", "demo-us.leanix.net")
-WORKSPACE = os.getenv("LEANIX_WORKSPACE", "HarclerodeDemo")
+HOST      = os.getenv("LEANIX_WORKSPACE_HOST", "yourworkspace.leanix.net")
+WORKSPACE = os.getenv("LEANIX_WORKSPACE", "Your workspace details")
 
 
 def get_access_token() -> str:
